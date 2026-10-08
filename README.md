@@ -25,28 +25,18 @@ The software was tested on the FINRISK cohort using taxonomic (metagenomic) and 
 
 FINRISK data is sensitive data and needs to be assessed using the CSC SD desktop services with permission obtained to asses the data. 
 
-## Usage
-
-```r
-# 1. Install the extended IntegratedLearner (see link above)
-# 2. Prepare input data as described in [script_1]
-# 3. Run [script_2] (survival) or [script_3] (multiclass)
-```
 
 ## Funding
-
-[Insert the official Hologen funding statement exactly as in the instructions.]
-
-![Hologen logo](path/to/logo.png)
-
-## Contact
-
-[Your name, affiliation, email]
-
-
-
-
-
-
-
+This work is part of my (DC2) PhD project and has been funded by the *European Union under Grant Agreement 101169005 (Hologen Consortium 2025)
 <img width="1205" height="122" alt="image" src="https://github.com/user-attachments/assets/7eea7d1a-0adc-4004-93c2-6a89e606984b" />
+
+
+
+
+
+
+
+
+
+
+
