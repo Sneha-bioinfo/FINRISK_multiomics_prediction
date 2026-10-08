@@ -15,7 +15,7 @@ A manuscript presenting these new functionalities and the FINRISK findings is be
 
 ## This repository
 
-The software was tested on the FINRISK cohort using taxonomic (metagenomic) and metabolomic profiles. Every version of the software, up to the current final version, was evaluated on FINRISK data, and the results guided its progression. This repository contains the analysis scripts for that testing.
+The software was tested on the FINRISK cohort using taxonomic (microbiome data )and metabolomic profiles. Every version of the software, up to the current final version, was evaluated on FINRISK data, and the results guided its progression. This repository contains the analysis scripts for the same.
 
 ## Scripts
 
@@ -25,7 +25,7 @@ The software was tested on the FINRISK cohort using taxonomic (metagenomic) and 
 
 ## Data
 
-FINRISK data are sensitive and not included in this repository. Access requires permission and is provided through the CSC SD Desktop service.
+FINRISK data is sensitive and thus not included in this repository. The data needs to be accessed through the CSC SD Desktop service, with permission granted to access the data.
 
 ## Funding
 
