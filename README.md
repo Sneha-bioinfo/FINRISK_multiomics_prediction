@@ -2,43 +2,33 @@
 
 **Beta version**
 
-This repository contains the FINRISK evaluation code for the Hologen deliverable *"Latent variable software for integrating multi-omics data for incident disease risk prediction in microbiome-based cohort studies."*
+This repository contains the FINRISK analysis scripts used to test the beta version of the Hologen deliverable *"Latent variable software for integrating multi-omics data for incident disease risk prediction in microbiome-based cohort studies."*
 
-## About the software
+## Background
 
-The software is the extended **IntegratedLearner** framework [IntegratedLearner](https://github.com/himelmallick/IntegratedLearner), developed by Himel Mallick and Nalin Arora. The original IntegratedLearner supported cross-sectional analysis of binary and continuous outcomes. The extended version adds entirely new functionalities:
+The latent variable software is the extended [IntegratedLearner](https://github.com/himelmallick/IntegratedLearner) framework, developed by Himel Mallick and Nalin Arora and evaluated on the FINRISK cohort by me. The original IntegratedLearner supported cross-sectional analysis of binary and continuous outcomes. The extended version adds entirely new functionalities:
 
 - **Survival outcomes**: multi-omics integration for prospective cohorts with time-to-event data, enabling incident disease risk prediction.
 - **Multiclass outcomes**: evaluation of more than two outcome categories.
 
-Currently, I'm working  on the  manusscript of the paper with Himel Mallick and NAKON aora, to oisnryicude the enw functionaltiies and sciemtic onbservations form the test on the FINRISK cohort obtained from the Finrisk and my supervisor Leo Lahti, finalizing, data analysis.
+A manuscript presenting these new functionalities and the scientific observations from the FINRISK tests is currently in preparation as a joint effort by Himel Mallick, Nalin Arora, Leo Lahti and me. The data analysis is being finalized.
 
 ## This repository
 
-The software was tested on the FINRISK cohort using taxonomic (metagenomic) and metabolomic profiles. Every version of the software, up to the current final version, was evaluated on FINRISK data, and the results guided its progression. This repository contains the analysis code for that testing.
+The software was tested on the FINRISK cohort using taxonomic (metagenomic) and metabolomic profiles. Every version of the software, up to the current final version, was evaluated on FINRISK data, and the results guided its progression. This repository contains the analysis scripts for that testing.
 
 ## Scripts
-- [FINRISK_IL_survival.R](https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival.R)- Script for survival outcome prediction on the FINRISK data using Integratedlearner framework
-- [FINRISK_IL_survival_null.R](https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival_null.R)- Script for survival outcome prediction on negative control to test if the model accurately predicts biolgical association and not jist by chane
-- [FINRISK_IL_multiclass.R-](https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_muticlass.R)- Script for multiclass outcome prediction on the FINRISK
 
+- [`FINRISK_IL_survival.R`](scripts/FINRISK_IL_survival.R): survival outcome prediction on FINRISK data using the IntegratedLearner framework.
+- [`FINRISK_IL_survival_null.R`](scripts/FINRISK_IL_survival_null.R): negative control analysis for the survival model, testing that predictions reflect true biological association and not chance.
+- [`FINRISK_IL_multiclass.R`](scripts/FINRISK_IL_muticlass.R): multiclass outcome prediction on FINRISK data.
 
 ## Data
 
-FINRISK data is sensitive data and needs to be assessed using the CSC SD desktop services with permission obtained to asses the data. 
-
+FINRISK data are sensitive and not included in this repository. Access requires permission and is provided through the CSC SD Desktop service.
 
 ## Funding
-This work is part of my (DC2) PhD project and has been funded by the *European Union under Grant Agreement 101169005 (Hologen Consortium 2025)
-<img width="1205" height="122" alt="image" src="https://github.com/user-attachments/assets/7eea7d1a-0adc-4004-93c2-6a89e606984b" />
 
+This work is part of my (DC2) PhD project and has been funded by the European Union under Grant Agreement 101169005 (Hologen Consortium 2025).
 
-
-
-
-
-
-
-
-
-
+<img width="1205" height="122" alt="Hologen funding banner" src="https://github.com/user-attachments/assets/7eea7d1a-0adc-4004-93c2-6a89e606984b" />
