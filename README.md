@@ -18,9 +18,9 @@ Currently, I'm working  on the  manusscript of the paper with Himel Mallick and 
 The software was tested on the FINRISK cohort using taxonomic (metagenomic) and metabolomic profiles. Every version of the software, up to the current final version, was evaluated on FINRISK data, and the results guided its progression. This repository contains the analysis code for that testing.
 
 ## Scripts
-- [https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival.R]- Script for survival outcome prediction on the FINRISK data using Integratedlearner framework
-- [https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival_null.R]- Script for survival outcome prediction on negative control to test if the model accurately predicts biolgical association and not jist by chane
-- [https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_muticlass.R] ()- Script for multiclass outcome prediction on the FINRISK
+- [https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival.R](FINRISK_IL_survival.R)- Script for survival outcome prediction on the FINRISK data using Integratedlearner framework
+- [https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival_null.R](FINRISK_IL_survival_null.R)- Script for survival outcome prediction on negative control to test if the model accurately predicts biolgical association and not jist by chane
+- [https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_muticlass.R](FINRISK_IL_multiclass.R)- Script for multiclass outcome prediction on the FINRISK
 
 
 ## Data
