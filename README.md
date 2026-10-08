@@ -11,16 +11,16 @@ The software is the extended **IntegratedLearner** framework [IntegratedLearner]
 - **Survival outcomes**: multi-omics integration for prospective cohorts with time-to-event data, enabling incident disease risk prediction.
 - **Multiclass outcomes**: evaluation of more than two outcome categories.
 
-Currently, I'm working  on the  manusscript of the paper with Himel Mallick and NAKON aora, to oisnryicude the enw functionaltiies and sciemtic onbservations form the test on the firnisk cohort obstained from the Finrisk and my supervisor Leo Lahti, finalizng, data ansalsyss.
+Currently, I'm working  on the  manusscript of the paper with Himel Mallick and NAKON aora, to oisnryicude the enw functionaltiies and sciemtic onbservations form the test on the FINRISK cohort obtained from the Finrisk and my supervisor Leo Lahti, finalizing, data analysis.
 
 ## This repository
 
 The software was tested on the FINRISK cohort using taxonomic (metagenomic) and metabolomic profiles. Every version of the software, up to the current final version, was evaluated on FINRISK data, and the results guided its progression. This repository contains the analysis code for that testing.
 
 ## Scripts
-- [https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival.R](FINRISK_IL_survival.R)- Script for survival outcome prediction on the FINRISK data using Integratedlearner framework
-- [https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival_null.R](FINRISK_IL_survival_null.R)- Script for survival outcome prediction on negative control to test if the model accurately predicts biolgical association and not jist by chane
-- [https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_muticlass.R](FINRISK_IL_multiclass.R)- Script for multiclass outcome prediction on the FINRISK
+- [FINRISK_IL_survival.R](https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival.R)- Script for survival outcome prediction on the FINRISK data using Integratedlearner framework
+- [FINRISK_IL_survival_null.R](https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_survival_null.R)- Script for survival outcome prediction on negative control to test if the model accurately predicts biolgical association and not jist by chane
+- [FINRISK_IL_multiclass.R-](https://github.com/Sneha-bioinfo/FINRISK_multiomics_prediction/blob/main/scripts/FINRISK_IL_muticlass.R)- Script for multiclass outcome prediction on the FINRISK
 
 
 ## Data
