@@ -1,5 +1,47 @@
+# Latent variable software for integrating multi-omics data for incident disease risk prediction in microbiome-based cohort studies
+
+**Beta version**
+
+This repository contains the FINRISK evaluation code for the Hologen deliverable *"Latent variable software for integrating multi-omics data for incident disease risk prediction in microbiome-based cohort studies."*
+
+## About the software
+
+The software is the extended **IntegratedLearner** framework (https://github.com/himelmallick/IntegratedLearner) [replace with the link to the extended version if different], developed by Himel Mallick and Nalin Arora. The original IntegratedLearner supported cross-sectional analysis of binary and continuous outcomes. The extended version adds entirely new functionalities:
+
+- **Survival outcomes**: multi-omics integration for prospective cohorts with time-to-event data, enabling incident disease risk prediction.
+- **Multiclass outcomes**: evaluation of more than two outcome categories.
+
+## This repository
+
+The software was tested on the FINRISK cohort using taxonomic (metagenomic) and metabolomic profiles. Every version of the software, up to the current final version, was evaluated on FINRISK data, and the results guided its progression. This repository contains the analysis code for that testing.
+
+## Scripts
+- []- Script for survival outcome prediction on the FINRISK data using Integratedlearner framework
+- []- Script for survival outcome prediction on negative control to test if the model accurately predicts biolgical association and not jist by chane
+- []- Script for multiclass outcome prediction on the FINRISK
 
 
+## Data
+
+FINRISK data is sensitive data and needs to be assessed using the CSC SD desktop services with permission obtained to asses the data. 
+
+## Usage
+
+```r
+# 1. Install the extended IntegratedLearner (see link above)
+# 2. Prepare input data as described in [script_1]
+# 3. Run [script_2] (survival) or [script_3] (multiclass)
+```
+
+## Funding
+
+[Insert the official Hologen funding statement exactly as in the instructions.]
+
+![Hologen logo](path/to/logo.png)
+
+## Contact
+
+[Your name, affiliation, email]
 
 
 
