@@ -6,10 +6,12 @@ This repository contains the FINRISK evaluation code for the Hologen deliverable
 
 ## About the software
 
-The software is the extended **IntegratedLearner** framework (https://github.com/himelmallick/IntegratedLearner) [replace with the link to the extended version if different], developed by Himel Mallick and Nalin Arora. The original IntegratedLearner supported cross-sectional analysis of binary and continuous outcomes. The extended version adds entirely new functionalities:
+The software is the extended **IntegratedLearner** framework [IntegratedLearner](https://github.com/himelmallick/IntegratedLearner), developed by Himel Mallick and Nalin Arora. The original IntegratedLearner supported cross-sectional analysis of binary and continuous outcomes. The extended version adds entirely new functionalities:
 
 - **Survival outcomes**: multi-omics integration for prospective cohorts with time-to-event data, enabling incident disease risk prediction.
 - **Multiclass outcomes**: evaluation of more than two outcome categories.
+
+Currently, I'm working  on the  manusscript of the paper with Himel Mallick and NAKON aora, to oisnryicude the enw functionaltiies and sciemtic onbservations form the test on the firnisk cohort obstained from the Finrisk and my supervisor Leo Lahti, finalizng, data ansalsyss.
 
 ## This repository
 
