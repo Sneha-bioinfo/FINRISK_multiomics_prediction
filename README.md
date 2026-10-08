@@ -11,7 +11,7 @@ The latent variable software is the extended [IntegratedLearner](https://github.
 - **Survival outcomes**: multi-omics integration for prospective cohorts with time-to-event data, enabling incident disease risk prediction.
 - **Multiclass outcomes**: evaluation of more than two outcome categories.
 
-A manuscript presenting these new functionalities and the scientific observations from the FINRISK tests is currently in preparation as a joint effort by Himel Mallick, Nalin Arora, Leo Lahti and me. The data analysis is being finalized.
+A manuscript presenting these new functionalities and the FINRISK findings is being prepared as a collaborative effort with my supervisor, Leo Lahti, and with Himel Mallick and Nalin Arora from the original IntegratedLearner team.
 
 ## This repository
 
