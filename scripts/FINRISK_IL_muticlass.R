@@ -248,7 +248,6 @@ fit_all <- IntegratedLearner(
 )
 
 save(fit_all, file = file.path(output_dir, "taxa_metab_xgboost.RData"))
-capture.output(fit_all, file = file.path(output_dir, "taxa_metab_xgboost_output.txt"))
 
 #-- plot---#
 plot_obj <- IntegratedLearner:::plot.learner(fit_all)
